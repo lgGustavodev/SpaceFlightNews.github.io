@@ -1,78 +1,55 @@
-# Para acessar esse site> https://lggustavodevspaceflightnews.netlify.app/
+# Projeto de Previsão de Notícias Espaciais
 
+Um aplicativo simples para exibir notícias sobre voos espaciais usando a API Spaceflight News.
 
+## Recursos
 
+- Exibe uma lista de artigos sobre voos espaciais.
+- Carrega até 10 artigos por vez.
+- Exibe título, fornecedor, resumo e imagem do artigo.
+- Indica carregamento enquanto os dados são buscados.
 
+## Como usar
 
+1. Clone o repositório:
 
+    ```bash
+    git clone https://github.com/lggustavodev/nome-do-projeto.git
+    ```
 
-# Getting Started with Create React App
+2. Navegue até o diretório do projeto:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    ```bash
+    cd SpaceFlightNews.github.io
+    ```
 
-## Available Scripts
+3. Instale as dependências:
 
-In the project directory, you can run:
+    ```bash
+    npm install
+    ```
 
-### `npm start`
+4. Inicie a aplicação:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    ```bash
+    npm start
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demonstração
 
-### `npm test`
+Você pode ver uma demonstração do projeto [aqui](https://lggustavodevspaceflightnews.netlify.app/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologias utilizadas
 
-### `npm run build`
+- React
+- Axios
+- React Loader Spinner
+- Spaceflight News API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contribuição
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sinta-se à vontade para contribuir com o projeto. Envie um pull request ou abra uma issue.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Licença
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
